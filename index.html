@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Service de livraison de repas bio">
+    <meta name="keywords" content="livraison, repas, bio, écologie, éco-responsable">
+    <meta name="author" content="M4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service de Livraison de Repas Bio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="text-white py-3 text-center">
+        <img src="./resources/Logo_M4.png" alt="Logo" class="img-fluid navbar-brand" style="max-width: 50px;">
+        <nav aria-label="Nav">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#how-it-works" class="nav-link">Comment ça marche</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="about">
+            <h1 class="text-center">À propos de notre service</h1>
+            <p>
+                Nous offrons un service de livraison de repas bio directement à votre porte.
+            </p>
+        </section>
+
+        <section id="menu">
+            <h2 class="text-center">Menu</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./resources/smoothie.png" class="card-img-top" alt="Plat 1">
+                        <div class="card-body">
+                            <h3 class="card-title">Smoothie Vert Biologique EcoEats</h3>
+                            <p class="card-text">
+                                Savourez la richesse des ingrédients biologiques avec notre smoothie vert.
+                                Composé d'épinards, d'avocat et de pomme, et couronné de graines de chia, ce
+                                smoothie est non seulement délicieux mais aussi nutritif. Présenté dans un pot en
+                                verre réutilisable avec le logo "EcoEats", il est parfait pour une pause santé.
+                            </p>
+                            <p class="card-text">Prix: 6,49€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./resources/bento.png" class="card-img-top" alt="Plat 2">
+                        <div class="card-body">
+                            <h3 class="card-title">Boîte Bento EcoEats en Bambou</h3>
+                            <p class="card-text">
+                                Cette boîte bento éco-responsable est fabriquée en bambou durable. Elle est
+                                dotée de compartiments pratiques pour séparer vos aliments et conserver leur
+                                fraîcheur. Son design élégant avec le logo "EcoEats" gravé sur le couvercle en
+                                fait un choix parfait pour un repas équilibré en déplacement.
+                            </p>
+                            <p class="card-text">Prix: 24,99€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./resources/box.png" class="card-img-top" alt="Plat 3">
+                        <div class="card-body">
+                            <h3 class="card-title">Kit de Préparation de Repas Bio EcoEats</h3>
+                            <p class="card-text">
+                                Préparez un délicieux repas avec notre kit bio. Chaque boîte contient des
+                                ingrédients frais et biologiques, soigneusement sélectionnés pour vous offrir une
+                                expérience culinaire de qualité. Avec le logo "EcoEats" sur le dessus, ce kit est
+                                idéal pour ceux qui cherchent à manger sainement sans compromis sur le goût.
+                            </p>
+                            <p class="card-text">Prix: 24,99€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./resources/salades.png" class="card-img-top" alt="Plat 4">
+                        <div class="card-body">
+                            <h3 class="card-title">Mélange de Salades Vertes Bio EcoEats</h3>
+                            <p class="card-text">
+                                Notre mélange de salades vertes est soigneusement sélectionné pour vous offrir
+                                une combinaison de saveurs et de textures. Emballé sous vide pour garantir sa
+                                fraîcheur, ce mélange contient de la laitue, de la roquette et des épinards. Avec
+                                le logo "EcoEats" sur l'emballage, c'est un choix sain pour tous vos besoins en
+                                salade.
+                            </p>
+                            <p class="card-text">Prix: 3,99€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works">
+            <h2 class="text-center">Comment ça marche</h2>
+            <ol>
+                <li>Choisissez votre plat</li>
+                <li>Passez la commande en ligne</li>
+                <li>Recevez votre repas chez vous</li>
+            </ol>
+        </section>
+
+        <section id="contact">
+            <h2 class="text-center">Contactez-nous</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-white py-3 text-center">
+        <nav aria-label="footer">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="#" class="nav-link">Mentions légales</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Réseaux sociaux</a></li>
+            </ul>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="CSS Valide !" />
+                </a>
+            </p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valide !" />
+                </a>
+            </p>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

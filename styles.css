@@ -1,0 +1,52 @@
+/* Modification du background du header et du footer */
+header,
+footer {
+    background-color: #228B22;
+    /* Vert forêt */
+}
+
+a {
+    color: #F0FFF0 !important;
+    /* Vert miel */
+}
+
+/* Modification du background des sections paires */
+section:nth-child(even) {
+    background-color: #F0FFF0;
+    /* Vert miel */
+}
+
+/* Modification de la couleur des titres */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #006400 !important;
+    /* Vert foncé */
+}
+
+/* Modification des boutons */
+button.btn-primary {
+    background-color: #32CD32;
+    /* Vert Lime */
+    border: none;
+}
+
+/* Modification de la couleur des liens de navigation */
+.nav-link {
+    color: #ADFF2F;
+    /* Vert chartreuse */
+}
+
+.nav-link:hover {
+    color: #7FFF00;
+    /* Vert chartreuse clair */
+}
+
+/* Modification de la couleur de texte dans les cartes */
+.card-title,
+.card-text {
+    color: #006400;
+    /* Vert foncé */
+}
